@@ -1,0 +1,25 @@
+name: unsupervised_pred
+channels:
+  - conda-forge
+  - pytorch 
+  - open3d-admin
+
+dependencies:
+  - python=3.6.6
+  - numpy
+  - pybullet
+  - py-opencv
+  - scipy
+  - pandas
+  - matplotlib
+  - tqdm
+  - scikit-image
+  - imgaug
+  - open3d
+  - pytorch
+  - torchvision 
+  - ignite
+  - pip 
+  - pip: 
+      - visdom
+      - transforms3d
